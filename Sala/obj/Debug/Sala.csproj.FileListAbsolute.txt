@@ -1,0 +1,11 @@
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Sala\bin\Debug\Sala.exe.config
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Sala\bin\Debug\Sala.exe
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Sala\bin\Debug\Sala.pdb
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Sala\bin\Debug\Common.dll
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Sala\bin\Debug\Common.pdb
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Sala\obj\Debug\Sala.csprojResolveAssemblyReference.cache
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Sala\obj\Debug\Sala.Form1.resources
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Sala\obj\Debug\Sala.Properties.Resources.resources
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Sala\obj\Debug\Sala.csproj.GenerateResource.Cache
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Sala\obj\Debug\Sala.exe
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Sala\obj\Debug\Sala.pdb

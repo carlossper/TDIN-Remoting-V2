@@ -1,0 +1,10 @@
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\KitchenChangeState\bin\Debug\KitchenChangeState.exe.config
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\KitchenChangeState\bin\Debug\KitchenChangeState.exe
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\KitchenChangeState\bin\Debug\KitchenChangeState.pdb
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\KitchenChangeState\bin\Debug\Common.dll
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\KitchenChangeState\bin\Debug\Common.pdb
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\KitchenChangeState\obj\Debug\KitchenChangeState.csprojResolveAssemblyReference.cache
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\KitchenChangeState\obj\Debug\KitchenChangeState.Properties.Resources.resources
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\KitchenChangeState\obj\Debug\KitchenChangeState.csproj.GenerateResource.Cache
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\KitchenChangeState\obj\Debug\KitchenChangeState.exe
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\KitchenChangeState\obj\Debug\KitchenChangeState.pdb
