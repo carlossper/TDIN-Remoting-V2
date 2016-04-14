@@ -28,7 +28,6 @@ namespace KitchenChangeState
             repeater = new AlterEventRepeater();
             repeater.alterEvent += AlterHandler;
             listServer.alterEvent += new AlterDelegate(repeater.Repeater);
-            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -51,6 +50,10 @@ namespace KitchenChangeState
 
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            listView1.Select();
+        }
 
         // Handler
         public void AlterHandler(Request req) // Handler
@@ -88,6 +91,33 @@ namespace KitchenChangeState
                 ListViewItem reqItem = new ListViewItem(new string[] { reqPrep.Id.ToString(), reqPrep.Description, reqPrep.Quantity.ToString(), reqPrep.Table.ToString() });
                 listView2.Items.Add(reqItem);
             }
+        }
+
+        private void ListView1_SelectedIndexChanged_UsingItems(object sender, System.EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ArrayList listReqsUn = listServer.GetListByStateAndDest(State.Unattended, Destination.Kitchen);
+            ListView.SelectedIndexCollection indexUn = this.listView1.SelectedIndices;
+            int ind = indexUn[0];
+
+            Request req = (Request)listReqsUn[ind];
+
+            listServer.ChangeState(req.Id);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ArrayList listReqsUn = listServer.GetListByStateAndDest(State.Preparing, Destination.Kitchen);
+            ListView.SelectedIndexCollection indexUn = this.listView2.SelectedIndices;
+            int ind = indexUn[0];
+
+            Request req = (Request)listReqsUn[ind];
+
+            listServer.ChangeState(req.Id);
         }
     }
 

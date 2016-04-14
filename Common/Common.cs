@@ -119,6 +119,8 @@ public interface IListSingleton
     ArrayList GetListByTable(int table);
     ArrayList GetListByState(State state);
     ArrayList GetListByStateAndDest(State state, Destination dest);
+
+    void ChangeState(int idReq);
 }
 
 public class AlterEventRepeater : MarshalByRefObject {

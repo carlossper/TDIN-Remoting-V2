@@ -34,18 +34,12 @@
             this.Quant = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Table = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.listView2 = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.listView3 = new System.Windows.Forms.ListView();
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -91,15 +85,6 @@
             this.label1.Text = "Unattended";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(896, 21);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 17);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Ready";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -142,41 +127,9 @@
             this.columnHeader4.Text = "Table";
             this.columnHeader4.Width = 65;
             // 
-            // listView3
-            // 
-            this.listView3.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader5,
-            this.columnHeader6,
-            this.columnHeader7,
-            this.columnHeader8});
-            this.listView3.Location = new System.Drawing.Point(799, 60);
-            this.listView3.Name = "listView3";
-            this.listView3.Size = new System.Drawing.Size(242, 247);
-            this.listView3.TabIndex = 7;
-            this.listView3.UseCompatibleStateImageBehavior = false;
-            this.listView3.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader5
-            // 
-            this.columnHeader5.Text = "Id";
-            this.columnHeader5.Width = 31;
-            // 
-            // columnHeader6
-            // 
-            this.columnHeader6.Text = "Desc";
-            this.columnHeader6.Width = 86;
-            // 
-            // columnHeader7
-            // 
-            this.columnHeader7.Text = "Quant";
-            // 
-            // columnHeader8
-            // 
-            this.columnHeader8.Text = "Table";
-            // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(406, 337);
+            this.button1.Location = new System.Drawing.Point(216, 342);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(285, 107);
             this.button1.TabIndex = 8;
@@ -187,16 +140,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1083, 473);
+            this.ClientSize = new System.Drawing.Size(718, 473);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.listView3);
             this.Controls.Add(this.listView2);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listView1);
             this.Name = "Form1";
             this.Text = "Bar Change Request State";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -210,18 +162,12 @@
         private System.Windows.Forms.ColumnHeader Desc;
         private System.Windows.Forms.ColumnHeader Quant;
         private System.Windows.Forms.ColumnHeader Table;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ListView listView2;
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader columnHeader4;
-        private System.Windows.Forms.ListView listView3;
-        private System.Windows.Forms.ColumnHeader columnHeader5;
-        private System.Windows.Forms.ColumnHeader columnHeader6;
-        private System.Windows.Forms.ColumnHeader columnHeader7;
-        private System.Windows.Forms.ColumnHeader columnHeader8;
         private System.Windows.Forms.Button button1;
     }
 }
