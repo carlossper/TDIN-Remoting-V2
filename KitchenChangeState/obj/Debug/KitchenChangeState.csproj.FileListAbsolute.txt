@@ -8,3 +8,13 @@ C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\KitchenChangeState\ob
 C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\KitchenChangeState\obj\Debug\KitchenChangeState.csproj.GenerateResource.Cache
 C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\KitchenChangeState\obj\Debug\KitchenChangeState.exe
 C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\KitchenChangeState\obj\Debug\KitchenChangeState.pdb
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\KitchenChangeState\bin\Debug\KitchenChangeState.exe.config
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\KitchenChangeState\bin\Debug\KitchenChangeState.exe
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\KitchenChangeState\bin\Debug\KitchenChangeState.pdb
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\KitchenChangeState\bin\Debug\Common.dll
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\KitchenChangeState\bin\Debug\Common.pdb
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\KitchenChangeState\obj\Debug\KitchenChangeState.csprojResolveAssemblyReference.cache
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\KitchenChangeState\obj\Debug\KitchenChangeState.Properties.Resources.resources
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\KitchenChangeState\obj\Debug\KitchenChangeState.csproj.GenerateResource.Cache
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\KitchenChangeState\obj\Debug\KitchenChangeState.exe
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\KitchenChangeState\obj\Debug\KitchenChangeState.pdb

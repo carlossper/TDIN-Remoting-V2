@@ -18,11 +18,12 @@ namespace KitchenChangeState
 
         public Form1()
         {
+            RemotingConfiguration.Configure("KitchenChangeState.exe.config", false);
             listServer = (IListSingleton)RemoteNew.New(typeof(IListSingleton));
             InitializeComponent();
 
             // Subscriber
-            listServer.addedRequestEvent += ListReqAddedHandler;
+            //listServer.addedRequestEvent += ListReqAddedHandler;
         }
 
         private void label1_Click(object sender, EventArgs e)

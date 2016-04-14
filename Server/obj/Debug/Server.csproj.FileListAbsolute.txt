@@ -3,3 +3,11 @@ C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Server\bin\Debug\Serv
 C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Server\bin\Debug\Server.pdb
 C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Server\obj\Debug\Server.exe
 C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Server\obj\Debug\Server.pdb
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\Server\bin\Debug\Server.exe.config
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\Server\bin\Debug\Server.exe
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\Server\bin\Debug\Server.pdb
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\Server\bin\Debug\Common.dll
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\Server\bin\Debug\Common.pdb
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\Server\obj\Debug\Server.exe
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\Server\obj\Debug\Server.pdb

@@ -9,3 +9,14 @@ C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Sala\obj\Debug\Sala.P
 C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Sala\obj\Debug\Sala.csproj.GenerateResource.Cache
 C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Sala\obj\Debug\Sala.exe
 C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Sala\obj\Debug\Sala.pdb
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\Sala\bin\Debug\Sala.exe.config
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\Sala\bin\Debug\Sala.exe
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\Sala\bin\Debug\Sala.pdb
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\Sala\bin\Debug\Common.dll
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\Sala\bin\Debug\Common.pdb
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\Sala\obj\Debug\Sala.csprojResolveAssemblyReference.cache
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\Sala\obj\Debug\Sala.Form1.resources
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\Sala\obj\Debug\Sala.Properties.Resources.resources
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\Sala\obj\Debug\Sala.csproj.GenerateResource.Cache
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\Sala\obj\Debug\Sala.exe
+C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\Sala\obj\Debug\Sala.pdb
