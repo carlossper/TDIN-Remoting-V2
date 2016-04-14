@@ -1,10 +1,3 @@
-C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\ListSingleton\bin\Debug\ListSingleton.dll
-C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\ListSingleton\bin\Debug\ListSingleton.pdb
-C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\ListSingleton\bin\Debug\Common.dll
-C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\ListSingleton\bin\Debug\Common.pdb
-C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\ListSingleton\obj\Debug\ListSingleton.csprojResolveAssemblyReference.cache
-C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\ListSingleton\obj\Debug\ListSingleton.dll
-C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\ListSingleton\obj\Debug\ListSingleton.pdb
 C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\ListSingleton\bin\Debug\ListSingleton.dll
 C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\ListSingleton\bin\Debug\ListSingleton.pdb
 C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\ListSingleton\bin\Debug\Common.dll
@@ -12,3 +5,10 @@ C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\ListSinglet
 C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\ListSingleton\obj\Debug\ListSingleton.csprojResolveAssemblyReference.cache
 C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\ListSingleton\obj\Debug\ListSingleton.dll
 C:\Users\Luis\Documents\Visual Studio 2015\Projects\TDIN-Remoting-V2\ListSingleton\obj\Debug\ListSingleton.pdb
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\ListSingleton\bin\Debug\ListSingleton.dll
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\ListSingleton\bin\Debug\ListSingleton.pdb
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\ListSingleton\bin\Debug\Common.dll
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\ListSingleton\bin\Debug\Common.pdb
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\ListSingleton\obj\Debug\ListSingleton.csprojResolveAssemblyReference.cache
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\ListSingleton\obj\Debug\ListSingleton.dll
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\ListSingleton\obj\Debug\ListSingleton.pdb

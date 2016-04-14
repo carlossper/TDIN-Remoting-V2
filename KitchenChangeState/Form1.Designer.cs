@@ -41,12 +41,6 @@ namespace KitchenChangeState
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.listView3 = new System.Windows.Forms.ListView();
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -127,48 +121,6 @@ namespace KitchenChangeState
             // 
             this.columnHeader4.Text = "Table";
             // 
-            // listView3
-            // 
-            this.listView3.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader5,
-            this.columnHeader6,
-            this.columnHeader7,
-            this.columnHeader8});
-            this.listView3.Location = new System.Drawing.Point(791, 66);
-            this.listView3.Name = "listView3";
-            this.listView3.Size = new System.Drawing.Size(279, 219);
-            this.listView3.TabIndex = 3;
-            this.listView3.UseCompatibleStateImageBehavior = false;
-            this.listView3.View = System.Windows.Forms.View.Details;
-            this.listView3.SelectedIndexChanged += new System.EventHandler(this.listView3_SelectedIndexChanged);
-            // 
-            // columnHeader5
-            // 
-            this.columnHeader5.Text = "Id";
-            this.columnHeader5.Width = 41;
-            // 
-            // columnHeader6
-            // 
-            this.columnHeader6.Text = "Desc";
-            this.columnHeader6.Width = 114;
-            // 
-            // columnHeader7
-            // 
-            this.columnHeader7.Text = "Quant";
-            // 
-            // columnHeader8
-            // 
-            this.columnHeader8.Text = "Table";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(890, 29);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 17);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Ready";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -181,26 +133,24 @@ namespace KitchenChangeState
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(458, 330);
+            this.button1.Location = new System.Drawing.Point(270, 331);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(206, 98);
             this.button1.TabIndex = 6;
             this.button1.Text = "Update Request State";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // Kitchen
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1112, 466);
+            this.ClientSize = new System.Drawing.Size(747, 466);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.listView3);
             this.Controls.Add(this.listView2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listView1);
-            this.Name = "Kitchen";
+            this.Name = "Form1";
             this.Text = "Kitchen Change Request State";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -221,12 +171,6 @@ namespace KitchenChangeState
         private ColumnHeader columnHeader2;
         private ColumnHeader columnHeader3;
         private ColumnHeader columnHeader4;
-        private ListView listView3;
-        private ColumnHeader columnHeader5;
-        private ColumnHeader columnHeader6;
-        private ColumnHeader columnHeader7;
-        private ColumnHeader columnHeader8;
-        private Label label2;
         private Label label3;
         private Button button1;
     }

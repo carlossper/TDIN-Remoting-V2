@@ -1,0 +1,10 @@
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\BarChangeState\bin\Debug\BarChangeState.exe.config
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\BarChangeState\bin\Debug\BarChangeState.exe
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\BarChangeState\bin\Debug\BarChangeState.pdb
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\BarChangeState\bin\Debug\Common.dll
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\BarChangeState\bin\Debug\Common.pdb
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\BarChangeState\obj\Debug\BarChangeState.csprojResolveAssemblyReference.cache
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\BarChangeState\obj\Debug\BarChangeState.Properties.Resources.resources
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\BarChangeState\obj\Debug\BarChangeState.csproj.GenerateResource.Cache
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\BarChangeState\obj\Debug\BarChangeState.exe
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\BarChangeState\obj\Debug\BarChangeState.pdb

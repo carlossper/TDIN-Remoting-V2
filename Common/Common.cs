@@ -106,27 +106,31 @@ public class Request
 public enum Destination { Kitchen, Bar };
 public enum State { Unattended, Preparing, Ready };
 
-public delegate void AddedRequestDelegate(Request req);
-public delegate void ChangedStateDelegate(Request req);
+public delegate void AlterDelegate(Request req);
 
 public interface IListSingleton
 {
-    event AddedRequestDelegate addedRequestEvent;
+    event AlterDelegate alterEvent;
 
     ArrayList GetList();
     int GetNewId();
     void AddRequest(Request req);
+
+    ArrayList GetListByTable(int table);
+    ArrayList GetListByState(State state);
+    ArrayList GetListByStateAndDest(State state, Destination dest);
 }
 
-/*public class AlterEventRepeater : MarshalByRefObject {
-  public event AddedRequestDelegate addedRequestEvent;
+public class AlterEventRepeater : MarshalByRefObject {
+  public event AlterDelegate alterEvent;
 
   public override object InitializeLifetimeService() {
+    Console.Write("Initialized AlterEvent Repeater");
     return null;
   }
 
   public void Repeater(Request req) {
-    if (addedRequestEvent != null)
-            addedRequestEvent(req);
+    if (alterEvent != null)
+            alterEvent(req);
   }
-}*/
+}

@@ -15,12 +15,18 @@ namespace Sala
     public partial class Form1 : Form
     {
         IListSingleton listServer; // data struct
+        AlterEventRepeater repeater;
 
         public Form1()
         {
             RemotingConfiguration.Configure("Sala.exe.config", false);
             listServer = (IListSingleton)RemoteNew.New(typeof(IListSingleton));
             InitializeComponent();
+
+            repeater = new AlterEventRepeater();
+            repeater.alterEvent += ListReqAddedHandler;
+            listServer.alterEvent += new AlterDelegate(repeater.Repeater);
+
         }
 
 
@@ -28,6 +34,7 @@ namespace Sala
         {
 
         }
+        
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -66,6 +73,12 @@ namespace Sala
 
             Request req = new Request(id, desc, quant, table, destEnum, price);
             listServer.AddRequest(req);
+        }
+
+        // Handler
+        public void ListReqAddedHandler(Request req) // Handler
+        {
+            Console.WriteLine("\nListing...\n");
         }
     }
 

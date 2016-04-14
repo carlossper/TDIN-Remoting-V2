@@ -6,8 +6,8 @@ using System.Threading;
     public class ListSingleton : MarshalByRefObject, IListSingleton
     {
         ArrayList requestsList;
-        public event AddedRequestDelegate addedRequestEvent;
-        public event ChangedStateDelegate changedStateEvent;
+        public event AlterDelegate alterEvent;
+
         int id = 0;
 
         public ListSingleton()
@@ -38,21 +38,6 @@ using System.Threading;
             NotifyClientsAdd(req);
         }
 
-        public void ChangeState(int id)
-        {
-            foreach (Request req in requestsList)
-            {
-                if (req.Id == id)
-                    if (req.State != State.Ready)
-                    {
-                        req.State++;
-                        NotifyClientsChange(req);
-                        return;
-                    }
-                    else Console.WriteLine("Invalid ChangeState request");
-            }
-        }
-
         public ArrayList GetListByTable(int table)
         {
             ArrayList res = new ArrayList();
@@ -60,18 +45,6 @@ using System.Threading;
                 if (req.Table == table)
                     res.Add(req);
             return res;
-            /*foreach(Request req in requestsList)
-            {
-                if(req.Table == table)
-                {
-                    Console.WriteLine(req.Description + "\n");
-                    Console.WriteLine("Quantity: " + req.Quantity + "\n");
-                    Console.WriteLine("Price:" + req.Price + "\n");
-
-                    totalPrice += req.Price;
-                }
-            }
-            Console.WriteLine("Total table price: " + totalPrice + "\n");*/
         }
 
         public ArrayList GetListByState(State state)
@@ -83,38 +56,22 @@ using System.Threading;
             return res;
         }
 
-        void NotifyClientsAdd(Request req)
+        public ArrayList GetListByStateAndDest(State state,Destination dest)
         {
-            if (addedRequestEvent != null)
-            {
-                Delegate[] invkList = addedRequestEvent.GetInvocationList();
-
-                foreach (AddedRequestDelegate handler in invkList)
-                {
-                    new Thread(() =>
-                    {
-                        try
-                        {
-                            handler(req);
-                            Console.WriteLine("Invoking event handler");
-                        }
-                        catch (Exception)
-                        {
-                            addedRequestEvent -= handler;
-                            Console.WriteLine("Exception: Removed an event handler");
-                        }
-                    }).Start();
-                }
-            }
+            ArrayList res = new ArrayList();
+            foreach (Request req in requestsList)
+                if (req.State == state && req.Destination == dest)
+                    res.Add(req);
+            return res;
         }
 
-        void NotifyClientsChange(Request req)
+        void NotifyClientsAdd(Request req)
         {
-            if (changedStateEvent != null)
+            if (alterEvent != null)
             {
-                Delegate[] invkList = changedStateEvent.GetInvocationList();
+                Delegate[] invkList = alterEvent.GetInvocationList();
 
-                foreach (ChangedStateDelegate handler in invkList)
+                foreach (AlterDelegate handler in invkList)
                 {
                     new Thread(() =>
                     {
@@ -125,7 +82,7 @@ using System.Threading;
                         }
                         catch (Exception)
                         {
-                            changedStateEvent -= handler;
+                            alterEvent -= handler;
                             Console.WriteLine("Exception: Removed an event handler");
                         }
                     }).Start();

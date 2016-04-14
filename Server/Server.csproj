@@ -54,6 +54,10 @@
       <Project>{56c882d6-e358-4108-8bf2-cbae3fd126c5}</Project>
       <Name>Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ListSingleton\ListSingleton.csproj">
+      <Project>{6bb41643-261a-408e-9e90-0dd0a917a760}</Project>
+      <Name>ListSingleton</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

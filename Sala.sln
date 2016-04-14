@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KitchenChangeState", "Kitch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{3DE53B7D-D242-474D-94C4-0E20B2DB8B72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarChangeState", "BarChangeState\BarChangeState.csproj", "{6F38066E-0F49-446D-A546-26B18303537F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{3DE53B7D-D242-474D-94C4-0E20B2DB8B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DE53B7D-D242-474D-94C4-0E20B2DB8B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DE53B7D-D242-474D-94C4-0E20B2DB8B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F38066E-0F49-446D-A546-26B18303537F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F38066E-0F49-446D-A546-26B18303537F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F38066E-0F49-446D-A546-26B18303537F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F38066E-0F49-446D-A546-26B18303537F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
