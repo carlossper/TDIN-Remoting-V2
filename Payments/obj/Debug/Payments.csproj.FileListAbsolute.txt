@@ -1,0 +1,10 @@
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Payments\bin\Debug\Payments.exe.config
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Payments\bin\Debug\Payments.exe
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Payments\bin\Debug\Payments.pdb
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Payments\bin\Debug\Common.dll
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Payments\bin\Debug\Common.pdb
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Payments\obj\Debug\Payments.csprojResolveAssemblyReference.cache
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Payments\obj\Debug\Payments.Form1.resources
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Payments\obj\Debug\Payments.csproj.GenerateResource.Cache
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Payments\obj\Debug\Payments.exe
+C:\Users\Miguel\Documents\Visual Studio 2015\Projects\Sala\Payments\obj\Debug\Payments.pdb

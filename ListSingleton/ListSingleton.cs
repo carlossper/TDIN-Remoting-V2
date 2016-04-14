@@ -78,6 +78,31 @@ public class ListSingleton : MarshalByRefObject, IListSingleton
         }
     }
 
+    public void DeleteAllReqsTable(int table)
+    {
+        ArrayList arrReq = new ArrayList();
+        foreach (Request req in requestsList)
+            if (req.Table == table)
+            {
+                arrReq.Add(req);
+            }
+
+        foreach(Request req in arrReq)
+        {
+            requestsList.Remove(req);
+        }
+        NotifyClients((Request)arrReq[arrReq.Count-1]);
+
+        Console.WriteLine("Table " + ((Request)arrReq[0]).Table + " :");
+        double totalPrice = 0.0;
+        foreach (Request req in arrReq)
+        {
+            Console.WriteLine(req.Description + " - Price : " + req.Price);
+            totalPrice += req.Price;
+        }
+
+        Console.WriteLine(totalPrice);
+    }
 
     void NotifyClients(Request req)
     {

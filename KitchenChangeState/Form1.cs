@@ -100,24 +100,30 @@ namespace KitchenChangeState
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ArrayList listReqsUn = listServer.GetListByStateAndDest(State.Unattended, Destination.Kitchen);
-            ListView.SelectedIndexCollection indexUn = this.listView1.SelectedIndices;
-            int ind = indexUn[0];
+            if (listView1.SelectedIndices.Count > 0)
+            {
+                ArrayList listReqsUn = listServer.GetListByStateAndDest(State.Unattended, Destination.Kitchen);
+                ListView.SelectedIndexCollection indexUn = this.listView1.SelectedIndices;
+                int ind = indexUn[0];
 
-            Request req = (Request)listReqsUn[ind];
+                Request req = (Request)listReqsUn[ind];
 
-            listServer.ChangeState(req.Id);
+                listServer.ChangeState(req.Id);
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ArrayList listReqsUn = listServer.GetListByStateAndDest(State.Preparing, Destination.Kitchen);
-            ListView.SelectedIndexCollection indexUn = this.listView2.SelectedIndices;
-            int ind = indexUn[0];
+            if (listView2.SelectedIndices.Count > 0)
+            {
+                ArrayList listReqsUn = listServer.GetListByStateAndDest(State.Preparing, Destination.Kitchen);
+                ListView.SelectedIndexCollection indexUn = this.listView2.SelectedIndices;
+                int ind = indexUn[0];
 
-            Request req = (Request)listReqsUn[ind];
+                Request req = (Request)listReqsUn[ind];
 
-            listServer.ChangeState(req.Id);
+                listServer.ChangeState(req.Id);
+            }
         }
     }
 

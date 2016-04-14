@@ -17,6 +17,8 @@ namespace Sala
         IListSingleton listServer; // data struct
         AlterEventRepeater repeater;
 
+        delegate void Dispatcher();
+
         public Form1()
         {
             RemotingConfiguration.Configure("Sala.exe.config", false);
@@ -24,7 +26,7 @@ namespace Sala
             InitializeComponent();
 
             repeater = new AlterEventRepeater();
-            repeater.alterEvent += ListReqAddedHandler;
+            repeater.alterEvent += AlterHandler;
             listServer.alterEvent += new AlterDelegate(repeater.Repeater);
 
         }
@@ -76,9 +78,45 @@ namespace Sala
         }
 
         // Handler
-        public void ListReqAddedHandler(Request req) // Handler
+        public void AlterHandler(Request req) // Handler
         {
-            Console.WriteLine("\nListing...\n");
+            if(this.listView1.InvokeRequired)
+            {
+                Dispatcher d = new Dispatcher(DisplayReadyRequests);
+                this.Invoke(d);
+                Console.WriteLine("Thread");
+            }
+            else
+            {
+                DisplayReadyRequests();
+                Console.WriteLine("No THREAD");
+            }
+        }
+
+        private void DisplayReadyRequests()
+        {
+            // flush all request on listviews
+            listView1.Items.Clear();
+
+            var listReadyKitchen = listServer.GetListByStateAndDest(State.Ready, Destination.Kitchen);
+            var listReadyBar = listServer.GetListByStateAndDest(State.Ready, Destination.Bar);
+
+            foreach(Request req in listReadyKitchen)
+            {
+                ListViewItem reqItem = new ListViewItem(new string[] { req.Id.ToString(), req.Description, req.Quantity.ToString(), req.Table.ToString(), req.Destination.ToString()});
+                listView1.Items.Add(reqItem);
+            }
+
+            foreach (Request req in listReadyBar)
+            {
+                ListViewItem reqItem = new ListViewItem(new string[] { req.Id.ToString(), req.Description, req.Quantity.ToString(), req.Table.ToString(), req.Destination.ToString() });
+                listView1.Items.Add(reqItem);
+            }
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 

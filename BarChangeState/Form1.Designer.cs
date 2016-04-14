@@ -41,6 +41,7 @@
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listView1
@@ -50,7 +51,9 @@
             this.Desc,
             this.Quant,
             this.Table});
+            this.listView1.FullRowSelect = true;
             this.listView1.Location = new System.Drawing.Point(45, 60);
+            this.listView1.MultiSelect = false;
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(242, 247);
             this.listView1.TabIndex = 0;
@@ -101,7 +104,9 @@
             this.columnHeader2,
             this.columnHeader3,
             this.columnHeader4});
+            this.listView2.FullRowSelect = true;
             this.listView2.Location = new System.Drawing.Point(428, 60);
+            this.listView2.MultiSelect = false;
             this.listView2.Name = "listView2";
             this.listView2.Size = new System.Drawing.Size(242, 247);
             this.listView2.TabIndex = 6;
@@ -129,18 +134,30 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(216, 342);
+            this.button1.Location = new System.Drawing.Point(66, 331);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(285, 107);
+            this.button1.Size = new System.Drawing.Size(198, 107);
             this.button1.TabIndex = 8;
-            this.button1.Text = "Change Request State";
+            this.button1.Text = "Update State to Preparing";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(450, 331);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(198, 107);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "Update State to Ready";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(718, 473);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listView2);
             this.Controls.Add(this.label3);
@@ -169,6 +186,7 @@
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

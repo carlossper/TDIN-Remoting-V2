@@ -12,7 +12,7 @@ namespace Server
         static void Main(string[] args)
         {
             RemotingConfiguration.Configure("Server.exe.config", false);
-            Console.WriteLine("Press Return to terminate.");
+            Console.WriteLine("Printer - Press Return to terminate.");
             Console.ReadLine();
         }
     }

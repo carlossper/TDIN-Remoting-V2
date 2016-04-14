@@ -77,6 +77,34 @@ namespace BarChangeState
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (listView1.SelectedIndices.Count > 0)
+            {
+                ArrayList listReqsUn = listServer.GetListByStateAndDest(State.Unattended, Destination.Bar);
+                ListView.SelectedIndexCollection indexUn = this.listView1.SelectedIndices;
+                int ind = indexUn[0];
+
+                Request req = (Request)listReqsUn[ind];
+
+                listServer.ChangeState(req.Id);
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (listView2.SelectedIndices.Count > 0)
+            {
+                ArrayList listReqsUn = listServer.GetListByStateAndDest(State.Preparing, Destination.Bar);
+                ListView.SelectedIndexCollection indexUn = this.listView2.SelectedIndices;
+                int ind = indexUn[0];
+
+                Request req = (Request)listReqsUn[ind];
+
+                listServer.ChangeState(req.Id);
+            }
+        }
     }
 
     /* Mechanism for instanciating a remote object through its interface, using the config file */
